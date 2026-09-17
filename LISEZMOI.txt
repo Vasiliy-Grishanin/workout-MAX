@@ -1,0 +1,14 @@
+Workout Max, pack pour hébergement GitHub Pages
+
+1. Sur github.com, connecté à ton compte : bouton "+" > New repository.
+   Nom : workout-max. Coche "Public". Create repository.
+2. Dans le dépôt vide : "uploading an existing file". Sélectionne les 5 fichiers de ce dossier
+   (index.html, manifest.webmanifest, sw.js, icon-180.png, icon-512.png). Commit changes.
+   L'envoi d'index.html (12 Mo) prend une minute.
+3. Settings > Pages > Branch : main, dossier /(root) > Save.
+   Attends une à deux minutes, la page affiche l'adresse : https://TONPSEUDO.github.io/workout-max/
+4. Sur l'iPhone, ouvre cette adresse dans Safari > Partager > Sur l'écran d'accueil.
+   Icône "Workout Max", plein écran, fonctionne hors ligne après la première ouverture.
+
+Mise à jour : remplace index.html et sw.js dans le dépôt, puis ferme et rouvre l'appli deux fois.
+Tes données sont stockées dans l'appli sur le téléphone, pas sur GitHub. Pense à Exporter de temps en temps.
