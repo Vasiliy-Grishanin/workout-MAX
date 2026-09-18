@@ -1,19 +1,44 @@
 ## https://vasiliy-grishanin.github.io/workout-MAX/
 
-# Workout Max
+<div align="center">
 
-**A gym logbook for iPhone. No account, no subscription, no internet.**
+# 💪 Workout Max
 
-Log your sets in two taps, see what you lifted last time, and let the rest timer run itself.
+### A gym logbook for iPhone
 
-- 622 exercises with photos and instructions
-- Sets pre-filled from your own history
-- Rest timer, fixed or progressive, with sound and screen flash
-- Personal records detected as you lift
-- Everything stays on your phone
-- 9 languages
+**No account · No subscription · No internet**
 
-**Install:** open the app in Safari → Share → Add to Home Screen. Works offline from then on.
+*Log your sets in two taps, see what you lifted last time, and let the rest timer run itself.*
+
+[![Exercises](https://img.shields.io/badge/exercises-622-1E4FD8?style=for-the-badge)](#exercise-catalogue)
+[![Offline](https://img.shields.io/badge/works-offline-1F9D55?style=for-the-badge)](#technical-notes)
+[![Languages](https://img.shields.io/badge/languages-9-F0851E?style=for-the-badge)](#languages)
+[![Price](https://img.shields.io/badge/price-free-6B6F7A?style=for-the-badge)](#)
+
+</div>
+
+---
+
+|   | |
+|---|---|
+| 🏋️ | **622 exercises** with photos and instructions |
+| ⏱️ | **Rest timer**, fixed or progressive, with sound and screen flash |
+| 📝 | **Sets pre-filled** from your own history |
+| 🏆 | **Personal records** detected as you lift |
+| 🔒 | **Everything stays on your phone** |
+| 🌍 | **9 languages** |
+
+---
+
+<div align="center">
+
+### 📲 Install
+
+**Open the app in Safari** → **Share** → **Add to Home Screen**
+
+*Works offline from then on.*
+
+</div>
 
 ---
 
