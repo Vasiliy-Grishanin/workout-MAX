@@ -1,136 +1,114 @@
-# https://vasiliy-grishanin.github.io/workout-MAX/
+## https://vasiliy-grishanin.github.io/workout-MAX/
 
 # Workout Max
 
-**Carnet de musculation pour iPhone, sans compte, sans abonnement, sans connexion.**
+**A gym logbook for iPhone. No account, no subscription, no internet.**
 
-Workout Max est une application web qui s'installe sur l'écran d'accueil et fonctionne hors ligne. Elle sert à une seule chose : noter ses séries à la salle vite et bien, avec les valeurs de la dernière fois sous les yeux et un chrono de repos qui se lance tout seul.
+Log your sets in two taps, see what you lifted last time, and let the rest timer run itself.
 
-- 622 exercices avec photos et consignes en français
-- Préremplissage automatique depuis ton historique
-- Chrono de repos fixe ou progressif, signal sonore et visuel
-- Records détectés en direct, graphiques de progression
-- Données stockées uniquement sur le téléphone
-- Interface en 9 langues
+- 622 exercises with photos and instructions
+- Sets pre-filled from your own history
+- Rest timer, fixed or progressive, with sound and screen flash
+- Personal records detected as you lift
+- Everything stays on your phone
+- 9 languages
 
----
-
-## Sommaire
-
-1. [Installation](#installation)
-2. [Prise en main](#prise-en-main)
-3. [Fonctionnalités](#fonctionnalités)
-4. [Réglages](#réglages)
-5. [Données et confidentialité](#données-et-confidentialité)
-6. [Langues](#langues)
-7. [Technique](#technique)
-8. [Crédits](#crédits)
+**Install:** open the app in Safari → Share → Add to Home Screen. Works offline from then on.
 
 ---
 
-## Installation
+<details>
+<summary><b>Full documentation</b></summary>
 
-Aucune boutique d'applications, aucun compte.
+## Contents
 
-1. Ouvre la page de l'application dans **Safari** :
-   `https://vasiliy-grishanin.github.io/workout-MAX/`
-2. Appuie sur **Partager** puis **Sur l'écran d'accueil**.
-3. Lance l'application depuis son icône. Elle s'ouvre en plein écran et reste disponible sans réseau après la première ouverture.
+- [During a workout](#during-a-workout)
+- [Rest timer](#rest-timer)
+- [Tracking and stats](#tracking-and-stats)
+- [Organisation](#organisation)
+- [Exercise catalogue](#exercise-catalogue)
+- [Settings](#settings)
+- [Data and privacy](#data-and-privacy)
+- [Languages](#languages)
+- [Technical notes](#technical-notes)
+- [Credits](#credits)
 
-> Sur iPhone, l'installation doit se faire depuis Safari, pas depuis un autre navigateur.
+## During a workout
 
-## Prise en main
+Each exercise shows its sets as rows: weight, reps, RIR, and a tick to validate. The **Previous** column shows last time's numbers, and the fields are already filled in with them.
 
-Au premier lancement, l'application demande la langue et l'unité (kg ou lb). Ensuite, trois façons de commencer :
-
-| Depuis l'accueil | Ce qui se passe |
+| Feature | What it does |
 |---|---|
-| **Démarrer** la séance proposée | Lance le prochain modèle de ta rotation |
-| **Séance libre** | Séance vide, tu ajoutes les exercices au fur et à mesure |
-| **Depuis un modèle** | Choisis un modèle (Push, Pull, Jambes…) |
+| Pre-fill | Values come from the last normal session with that exercise |
+| Carry-over | Editing one set updates the following ones, unless already validated or edited |
+| Set types | Normal, warm-up, drop set, to failure. Warm-ups are excluded from records and volume |
+| Supersets | Group exercises; the timer only starts after the last one of the group |
+| Live records | Max weight, estimated 1RM, best set, session volume, with a notification when one falls |
+| Notes | A persistent note per exercise (seat height, grip) and a free note per session |
+| Replace | Swap an exercise for a similar one, reorder the list, remove |
+| Off-norm | Mark a session whose values should not be reused next time. Records still count |
+| Screen on | The screen stays awake for the whole session |
+| Auto-resume | Saved on every action, survives closing the app |
 
-Pendant la séance, chaque exercice affiche ses séries en lignes. La colonne **Précédent** montre ce que tu as fait la dernière fois, et les champs sont déjà remplis avec ces valeurs. Tu ajustes si besoin, tu coches, le chrono de repos démarre.
+## Rest timer
 
-## Fonctionnalités
+- **Fixed** or **progressive** duration (start time + increment per set), set per exercise or globally.
+- Separate rest after a warm-up set.
+- −15 s, +15 s and Skip buttons. Beeps at 3, 2, 1 then at zero, with a screen flash.
+- Past zero it keeps counting in orange, so you know how long you actually rested.
+- A **transition** timer runs after the last set of an exercise, with no alarm.
+- Both timers stop on their own after 15 minutes.
 
-### Pendant la séance
+## Tracking and stats
 
-- **Séries en lignes** : poids, répétitions, marge (répétitions en réserve) et coche de validation.
-- **Préremplissage** : les valeurs viennent de la dernière séance normale où l'exercice a été fait. Pour un exercice jamais fait, ce sont les valeurs par défaut des réglages.
-- **Propagation** : modifier une série met à jour les suivantes, sauf celles déjà validées ou éditées.
-- **Types de série** : normale, échauffement, dégressive, jusqu'à l'échec. L'échauffement ne compte ni dans les records ni dans le volume.
-- **Supersets** : lie deux exercices ou plus, le chrono ne se lance qu'après le dernier du groupe.
-- **Records en direct** : poids max, max estimé sur une répétition, meilleure série, volume de séance. Une notification apparaît dès qu'un record tombe.
-- **Notes** : une note persistante par exercice (réglage de machine, hauteur du siège) et une note libre par séance.
-- **Remplacer** un exercice par un similaire (même muscle principal), **réorganiser** l'ordre, **retirer**.
-- **Hors norme** : marque un exercice dont les valeurs ne doivent pas être reprises la prochaine fois (séance écourtée, machine différente). Les records comptent quand même.
-- **Écran allumé** pendant toute la séance.
-- **Reprise automatique** : la séance est sauvegardée à chaque action, elle survit à une fermeture de l'application.
+- **Exercise page**: start and end photos, muscle map (front and back), equipment, level, instructions, records, progress chart (max weight, estimated 1RM, volume) over 1 month, 3 months, 1 year or all time, and full history.
+- **History**: sessions by month, with details, comparison to the previous one, text sharing, editing and deletion.
+- **Stats**: training calendar, weeks in a row, muscles worked this week, sets per muscle group and week, body weight chart.
+- **Session summary**: duration, sets, volume, records broken, comparison with last time.
 
-### Chrono de repos
+## Organisation
 
-- Durée **fixe** ou **progressive** (temps de départ + ajout à chaque série), réglable par exercice et par défaut.
-- Repos spécifique après une série d'échauffement.
-- Boutons −15 s, +15 s et Passer. Signal sonore à 3, 2, 1 puis à zéro, avec flash de l'écran.
-- Après zéro, le chrono continue en dépassement (affiché en orange) pour savoir combien de temps tu as réellement attendu.
-- Chrono de **transition** après le dernier exercice, sans alarme.
-- Les deux chronos s'arrêtent seuls au bout de 15 minutes.
+- **Templates**: reusable exercise lists (Push, Pull, Legs…). A template only fixes the list; weights and reps always come from your history.
+- **Rotation**: the home screen suggests the next template, but never decides for you.
+- **Template update** offered at the end of a session if the exercises changed.
+- **Repeat** a past session in one tap, **favourite sessions**, **favourite exercises** listed first.
+- **Custom exercises**, with a photo of the machine taken at the gym.
 
-### Suivi et statistiques
+## Exercise catalogue
 
-- **Fiche exercice** : photos de départ et d'arrivée, carte des muscles (face et dos), matériel, niveau, consignes d'exécution, records, courbe de progression (poids max, max estimé, volume) sur 1 mois, 3 mois, 1 an ou tout, historique complet.
-- **Historique** des séances par mois, avec détail, comparaison à la séance précédente, partage en texte, modification ou suppression.
-- **Stats** : calendrier des jours d'entraînement, semaines d'affilée, carte des muscles travaillés dans la semaine, tableau des séries par groupe musculaire et par semaine, courbe du poids de corps.
-- **Résumé de fin de séance** : durée, séries, volume, records battus, comparaison avec la dernière fois.
+- 622 strength and powerlifting exercises, each with two photos.
+- Search in English or French, filters by muscle group and equipment.
+- Tracking modes per exercise: weight and reps, bodyweight, weighted, assisted, duration. Unilateral option.
 
-### Organisation
-
-- **Modèles** : listes d'exercices réutilisables (Push, Pull, Jambes…). Le modèle fixe la liste, les poids et répétitions viennent toujours de l'historique.
-- **Rotation** : ordre des modèles ; l'accueil propose le suivant, sans jamais décider à ta place.
-- **Mise à jour du modèle** proposée en fin de séance si les exercices ont changé.
-- **Refaire** une ancienne séance en un appui, **séances favorites**, **exercices favoris** en tête de liste.
-- **Exercices personnalisés** avec photo de la machine prise sur place.
-
-### Catalogue d'exercices
-
-- 622 exercices de musculation et de powerlifting, chacun avec deux photos.
-- Noms et consignes en français, recherche en français ou en anglais.
-- Filtres par groupe musculaire et par matériel.
-- Modes de suivi par exercice : poids et répétitions, poids du corps, lesté, assisté, durée. Option unilatéral.
-
-## Réglages
+## Settings
 
 | Section | Options |
 |---|---|
-| Langue | 9 langues, voir plus bas |
-| Séance | Unité kg ou lb, séries et répétitions par défaut, repos par défaut, colonne marge, propagation des valeurs, ajustement automatique de la marge, écran allumé |
-| Signal de fin de repos | Par-dessus la musique, en baissant la musique, prioritaire, ou aucun son. Flash visuel. Bips à 3, 2, 1 |
-| Apparence | Thème clair, sombre ou automatique |
-| Sauvegarde | Export et import d'un fichier JSON, rappel si la dernière sauvegarde date de plus d'un mois |
+| Language | 9 languages |
+| Workout | kg or lb, default sets and reps, default rest, RIR column, carry-over, automatic RIR, screen on |
+| Rest signal | Over the music, ducking the music, priority, or silent. Screen flash. Beeps at 3, 2, 1 |
+| Appearance | Light, dark or automatic theme |
+| Backup | JSON export and import, reminder if the last backup is over a month old |
 
-> Sur iPhone en mode silencieux, seul le mode « Prioritaire » émet un son, et il peut interrompre la musique un instant. Le flash visuel fonctionne dans tous les cas.
+> On iPhone in silent mode, only the "priority" sound plays, and it may briefly interrupt the music. The screen flash always works.
 
-## Données et confidentialité
+## Data and privacy
 
-- Tout est stocké **dans le navigateur du téléphone**. Aucun serveur, aucun compte, aucune télémétrie.
-- Les photos personnelles sont stockées localement également.
-- Pense à **exporter une sauvegarde** de temps en temps depuis les réglages : c'est le seul moyen de retrouver tes données si tu changes de téléphone ou si le stockage du navigateur est effacé.
+Everything is stored in the phone's browser storage. No server, no account, no tracking. Export a backup from the settings now and then: it is the only way to recover your data if you change phone or clear the browser storage.
 
-## Langues
+## Languages
 
-Interface disponible en français, russe, anglais, allemand, chinois, espagnol, hindi, italien et portugais.
+Interface in French, Russian, English, German, Chinese, Spanish, Hindi, Italian and Portuguese. Exercise names and instructions exist in French and English; other languages show them in English.
 
-Les noms et consignes des exercices existent en français et en anglais. Dans les autres langues, ils sont affichés en anglais.
+## Technical notes
 
-## Technique
+- A single self-contained `index.html` (HTML, CSS, JavaScript, data and photos included), around 13 MB.
+- No external dependency, no network request at runtime.
+- `sw.js` caches the app for offline use; `manifest.webmanifest` and the icons handle the home screen install.
+- Hosted on GitHub Pages. To update, replace `index.html` and `sw.js`, then close and reopen the app twice.
 
-- Un seul fichier `index.html` autonome (HTML, CSS, JavaScript, données et photos incluses), environ 13 Mo.
-- Aucune dépendance externe, aucun appel réseau à l'usage.
-- `sw.js` met le fichier en cache pour le fonctionnement hors ligne, `manifest.webmanifest` et les icônes servent à l'installation sur l'écran d'accueil.
-- Hébergé sur GitHub Pages.
+## Credits
 
-Pour mettre à jour l'application, il suffit de remplacer `index.html` et `sw.js` dans le dépôt, puis de fermer et rouvrir l'application deux fois.
+Exercise photos and source data: [free-exercise-db](https://github.com/yuhonas/free-exercise-db), public domain (Unlicense). French names and instructions written for this project.
 
-## Crédits
-
-Photos et données d'origine des exercices : [free-exercise-db](https://github.com/yuhonas/free-exercise-db), domaine public (Unlicense). Traductions et consignes en français rédigées pour ce projet.
+</details>
