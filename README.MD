@@ -8,9 +8,11 @@
 
 **No account · No subscription · No internet**
 
+by **Vass Gr**
+
 *Log your sets in two taps, see what you lifted last time, and let the rest timer run itself.*
 
-[![Exercises](https://img.shields.io/badge/exercises-622-1E4FD8?style=for-the-badge)](#exercise-catalogue)
+[![Exercises](https://img.shields.io/badge/exercises-619-1E4FD8?style=for-the-badge)](#exercise-catalogue)
 [![Offline](https://img.shields.io/badge/works-offline-1F9D55?style=for-the-badge)](#technical-notes)
 [![Languages](https://img.shields.io/badge/languages-9-F0851E?style=for-the-badge)](#languages)
 [![Price](https://img.shields.io/badge/price-free-6B6F7A?style=for-the-badge)](#)
@@ -21,8 +23,9 @@
 
 |   | |
 |---|---|
-| 🏋️ | **622 exercises** with photos and instructions |
+| 🏋️ | **619 exercises** with photos and instructions |
 | ⏱️ | **Rest timer**, fixed or progressive, with sound and screen flash |
+| 📊 | **Effort gauge** per exercise and **attendance stats** |
 | 📝 | **Sets pre-filled** from your own history |
 | 🏆 | **Personal records** detected as you lift |
 | 🔒 | **Everything stays on your phone** |
@@ -87,8 +90,9 @@ Each exercise shows its sets as rows: weight, reps, RIR, and a tick to validate.
 ## Tracking and stats
 
 - **Exercise page**: start and end photos, muscle map (front and back), equipment, level, instructions, records, progress chart (max weight, estimated 1RM, volume) over 1 month, 3 months, 1 year or all time, and full history.
+- **Effort gauge**: a three-step bar next to each exercise, based on your RIR: easy (you can add weight), good intensity, or all out. Shown faded from last session until you log a set.
 - **History**: sessions by month, with details, comparison to the previous one, text sharing, editing and deletion.
-- **Stats**: training calendar, weeks in a row, muscles worked this week, sets per muscle group and week, body weight chart.
+- **Stats**: attendance (sessions and weekly average over the last 4 weeks, this month, 3 and 6 months, this year and in total), training calendar, weeks in a row, muscles worked this week, sets per muscle group and week, body weight chart.
 - **Session summary**: duration, sets, volume, records broken, comparison with last time.
 
 ## Organisation
@@ -101,7 +105,7 @@ Each exercise shows its sets as rows: weight, reps, RIR, and a tick to validate.
 
 ## Exercise catalogue
 
-- 622 strength and powerlifting exercises, each with two photos.
+- 619 strength and powerlifting exercises, each with two photos.
 - Search in English or French, filters by muscle group and equipment.
 - Tracking modes per exercise: weight and reps, bodyweight, weighted, assisted, duration. Unilateral option.
 
@@ -135,5 +139,7 @@ Interface in French, Russian, English, German, Chinese, Spanish, Hindi, Italian 
 ## Credits
 
 Exercise photos and source data: [free-exercise-db](https://github.com/yuhonas/free-exercise-db), public domain (Unlicense). French names and instructions written for this project.
+
+Made by **Vass Gr**.
 
 </details>
